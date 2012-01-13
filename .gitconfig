@@ -1,0 +1,14 @@
+[user]
+	name = Benjamin Anderson
+	email = b@banjiewen.net
+[branch]
+	autosetuprebase = always
+[alias]
+	l = log --oneline --decorate --graph
+	s = status --short --branch
+[difftool "Kaleidoscope"]
+	cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
+[difftool]
+	prompt = false
+[diff]
+	tool = Kaleidoscope

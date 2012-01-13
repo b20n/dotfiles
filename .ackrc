@@ -1,0 +1,14 @@
+--text
+--ignore-dir=.sass-cache
+--ignore-dir=sass-cache
+--ignore-dir=log
+--ignore-dir=coverage
+--ignore-dir=assets
+--ignore-dir=solr
+--ignore-dir=vendor
+--ignore-dir=public/uploads
+--type-set=sass=.sass
+--type-set=scala=.scala
+--nocss
+--type-set=rbc=.rbc
+--norbc
